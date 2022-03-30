@@ -1,0 +1,52 @@
+main{
+    border: 1px solid black;
+    width: 1000px;
+    margin: auto;
+    display: grid;
+    grid-template-areas:"h h h h"
+                        "as a a asl"
+                        "f f f f";
+}
+
+img{
+    width: 150px;
+}
+
+#bal{
+    width: 180px;
+    grid-area: as;
+    border: 1px solid black;
+    margin: 0 20px 0 0;
+}
+
+#jobb{
+    width: 175px;
+    grid-area: asl;
+    border: 1px solid black;
+    margin: 0 0px 0 20px;
+}
+
+article{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 600px;
+    height: 600px;
+    margin: auto;
+    grid-area: a;
+    border: 1px solid black;
+    background-color: aqua;
+}
+
+header{
+    grid-area: h;
+}
+
+footer{
+    grid-area: f;
+}
+
+#csonak img{
+    margin: auto;
+    width: 300px;
+}
