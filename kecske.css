@@ -57,3 +57,7 @@ footer p{
     margin: auto;
     width: 300px;
 }
+.kiemel{
+    border: 2px solid red;
+    cursor: grab;
+}

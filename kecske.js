@@ -26,6 +26,8 @@ function init(){
     let kepekhossz = ß("#bal img").length;
     for (let index = 0; index < kepekhossz; index++) {
         ß("#bal img")[index].addEventListener("click", kattintas);
+        ß("#bal img")[index].addEventListener("mouseover",borderred );
+        ß("#bal img")[index].addEventListener("mouseout",borderredle );
         
     }
     
@@ -36,4 +38,12 @@ function kattintas(){
     kep.push(event.target.src);
     console.log(kep);
     event.target.removeEventListener("click", kattintas)
+}
+
+function borderred(event){
+    event.target.classList.add("kiemel");
+}
+
+function borderredle(event){
+    event.target.classList.remove("kiemel");
 }
