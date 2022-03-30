@@ -20,7 +20,7 @@ img{
 }
 
 #jobb{
-    
+
     width: 175px;
     grid-area: asl;
     border: 1px solid black;
@@ -45,6 +45,12 @@ header{
 
 footer{
     grid-area: f;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+footer p{
+    margin: 1px;
 }
 
 #csonak img{
